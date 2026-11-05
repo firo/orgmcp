@@ -1,0 +1,20 @@
+node_modules/
+dist/
+exports/
+*.log
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+.orgmcp/
+
+# Build and test
+*.tsbuildinfo
+coverage/
+
+# Editors
+.idea/
+.vscode/
